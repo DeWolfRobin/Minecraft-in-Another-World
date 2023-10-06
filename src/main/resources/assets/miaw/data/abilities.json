@@ -1,0 +1,625 @@
+[
+  {
+    "name": "Blade Mastery",
+    "description": "Enhanced swordsmanship skills.",
+    "rarity": "Common",
+    "upgrades": "Improved precision and speed.",
+    "downsides": "Overreliance on swords."
+  },
+  {
+    "name": "Slime Transformation",
+    "description": "Ability to turn into a shape-shifting slime.",
+    "rarity": "Rare",
+    "upgrades": "Gain resistance to various elements.",
+    "downsides": "Vulnerable to dehydration."
+  },
+  {
+    "name": "Spider Silk Manipulation",
+    "description": "Control over spider silk for traps and mobility.",
+    "rarity": "Uncommon",
+    "upgrades": "Create stronger silk and camouflage.",
+    "downsides": "Arachnophobia in others."
+  },
+  {
+    "name": "Teleportation",
+    "description": "Instantaneous travel between locations.",
+    "rarity": "Legendary",
+    "upgrades": "Longer distance jumps and group teleportation.",
+    "downsides": "Drain on stamina with frequent use."
+  },
+  {
+    "name": "Time Manipulation",
+    "description": "Control over time, allowing for time freezes or fast-forwards.",
+    "rarity": "Epic",
+    "upgrades": "Precise control and time-travel abilities.",
+    "downsides": "Temporal paradox risks."
+  },
+  {
+    "name": "Mana Absorption",
+    "description": "Ability to absorb mana from the environment or enemies.",
+    "rarity": "Rare",
+    "upgrades": "Greater absorption rates and mana conversion.",
+    "downsides": "Risk of becoming mana-dependent."
+  },
+  {
+    "name": "Animal Taming",
+    "description": "Ability to communicate with and tame animals.",
+    "rarity": "Uncommon",
+    "upgrades": "Tame mythical creatures and control larger groups.",
+    "downsides": "Can't tame hostile beings."
+  },
+  {
+    "name": "Elemental Affinity (Fire)",
+    "description": "Mastery over fire-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced fire elements.",
+    "downsides": "Vulnerable to water-based attacks."
+  },
+  {
+    "name": "Dungeon Mapping",
+    "description": "Detailed map creation of uncharted dungeons.",
+    "rarity": "Uncommon",
+    "upgrades": "Real-time updates and hidden trap detection.",
+    "downsides": "Vulnerable while mapping."
+  },
+  {
+    "name": "Stealth Invisibility",
+    "description": "Invisibility and near-silent movement.",
+    "rarity": "Rare",
+    "upgrades": "Longer duration and reduced detection risk.",
+    "downsides": "Drain on energy."
+  },
+  {
+    "name": "Reincarnation Knowledge",
+    "description": "Retain knowledge from past lives.",
+    "rarity": "Legendary",
+    "upgrades": "Recall past skills and experiences.",
+    "downsides": "Memories can be overwhelming."
+  },
+  {
+    "name": "Alchemy Mastery",
+    "description": "Ability to transmute and create powerful potions.",
+    "rarity": "Common",
+    "upgrades": "Brew rare elixirs and poisons.",
+    "downsides": "Requires rare ingredients."
+  },
+  {
+    "name": "Astral Projection",
+    "description": "Project your consciousness to explore the astral plane.",
+    "rarity": "Epic",
+    "upgrades": "Travel between worlds and gather information.",
+    "downsides": "Vulnerable while projecting."
+  },
+  {
+    "name": "Healing Touch",
+    "description": "Instantly heal wounds with a touch.",
+    "rarity": "Uncommon",
+    "upgrades": "Cure diseases and ailments.",
+    "downsides": "Drains vitality."
+  },
+  {
+    "name": "Demon Contract",
+    "description": "Form pacts with demons for power.",
+    "rarity": "Rare",
+    "upgrades": "Gain unique demon abilities.",
+    "downsides": "Risk of losing control."
+  },
+  {
+    "name": "Beast Transformation",
+    "description": "Transform into a powerful beast form.",
+    "rarity": "Rare",
+    "upgrades": "Greater strength and new transformations.",
+    "downsides": "Reduced human consciousness."
+  },
+  {
+    "name": "Soul Manipulation",
+    "description": "Control over souls, including extraction and manipulation.",
+    "rarity": "Epic",
+    "upgrades": "Resurrect the dead or trap souls for power.",
+    "downsides": "Ethical dilemmas."
+  },
+  {
+    "name": "Dimensional Pocket",
+    "description": "Store items in a personal pocket dimension.",
+    "rarity": "Uncommon",
+    "upgrades": "Increase storage capacity and accessibility.",
+    "downsides": "Risk of pocket dimension instability."
+  },
+  {
+    "name": "Illusion Casting",
+    "description": "Create convincing illusions.",
+    "rarity": "Common",
+    "upgrades": "Complex and lasting illusions.",
+    "downsides": "Overuse can strain the mind."
+  },
+  {
+    "name": "Enhanced Crafting",
+    "description": "Craft powerful weapons and items.",
+    "rarity": "Common",
+    "upgrades": "Create legendary artifacts.",
+    "downsides": "Requires rare materials."
+  },
+  {
+    "name": "Charm Magic",
+    "description": "Enchant and manipulate the emotions of others.",
+    "rarity": "Rare",
+    "upgrades": "Control over stronger emotions.",
+    "downsides": "Risk of manipulation backlash."
+  },
+  {
+    "name": "Gravity Manipulation",
+    "description": "Control over gravitational forces.",
+    "rarity": "Epic",
+    "upgrades": "Alter gravity's strength and direction.",
+    "downsides": "Accidental environmental damage."
+  },
+  {
+    "name": "Golem Creation",
+    "description": "Craft and control powerful golems.",
+    "rarity": "Uncommon",
+    "upgrades": "Create larger and more intricate golems.",
+    "downsides": "Requires rare materials."
+  },
+  {
+    "name": "Elemental Affinity (Water)",
+    "description": "Mastery over water-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced water elements.",
+    "downsides": "Vulnerable to fire-based attacks."
+  },
+  {
+    "name": "Divination",
+    "description": "See glimpses of the future.",
+    "rarity": "Rare",
+    "upgrades": "Increased accuracy and vision of distant events.",
+    "downsides": "Fragmented and cryptic visions."
+  },
+  {
+    "name": "Shadow Manipulation",
+    "description": "Control over shadows for stealth and attacks.",
+    "rarity": "Rare",
+    "upgrades": "Manifest shadowy creatures and darkness.",
+    "downsides": "Vulnerable to light-based attacks."
+  },
+  {
+    "name": "Dimensional Travel",
+    "description": "Travel between parallel dimensions.",
+    "rarity": "Epic",
+    "upgrades": "Navigate specific dimensions and control dimensional rifts.",
+    "downsides": "Unpredictable dimensional encounters."
+  },
+  {
+    "name": "Soulbound Weapon",
+    "description": "Form a bond with a powerful, sentient weapon.",
+    "rarity": "Rare",
+    "upgrades": "Unlock new weapon abilities and forms.",
+    "downsides": "Weapon's personality can clash with the user's."
+  },
+  {
+    "name": "Necromancy",
+    "description": "Raise and control the undead.",
+    "rarity": "Epic",
+    "upgrades": "Command more powerful undead and retain their abilities.",
+    "downsides": "Ethical dilemmas and societal rejection."
+  },
+  {
+    "name": "Gravity Well",
+    "description": "Create localized gravitational anomalies.",
+    "rarity": "Epic",
+    "upgrades": "Manipulate gravity on a larger scale.",
+    "downsides": "Requires immense focus."
+  },
+  {
+    "name": "Berserker Rage",
+    "description": "Enter a frenzied state of heightened strength and aggression.",
+    "rarity": "Uncommon",
+    "upgrades": "Longer duration and enhanced physical abilities.",
+    "downsides": "Reduced self-control."
+  },
+  {
+    "name": "Weather Manipulation",
+    "description": "Control over weather patterns.",
+    "rarity": "Rare",
+    "upgrades": "Summon storms, blizzards, and other extreme weather.",
+    "downsides": "Environmental consequences."
+  },
+  {
+    "name": "Phantom Senses",
+    "description": "Enhanced sensory perception, including seeing spirits.",
+    "rarity": "Common",
+    "upgrades": "Detect hidden entities and sense danger.",
+    "downsides": "Overstimulation in crowded areas."
+  },
+  {
+    "name": "Sword of Light",
+    "description": "Summon a radiant sword with holy powers.",
+    "rarity": "Rare",
+    "upgrades": "Increase the sword's size and power.",
+    "downsides": "Vulnerable to dark magic."
+  },
+  {
+    "name": "Elemental Affinity (Earth)",
+    "description": "Mastery over earth-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced earth elements.",
+    "downsides": "Vulnerable to wind-based attacks."
+  },
+  {
+    "name": "Time Compression",
+    "description": "Speed up time for yourself or objects.",
+    "rarity": "Epic",
+    "upgrades": "Control over time compression and reversal.",
+    "downsides": "Temporal disorientation."
+  },
+  {
+    "name": "Lycanthropy",
+    "description": "Transform into a powerful wolf or wolf-like creature.",
+    "rarity": "Rare",
+    "upgrades": "Control other wolf forms and retain human consciousness.",
+    "downsides": "Risk of losing control."
+  },
+  {
+    "name": "Sound Manipulation",
+    "description": "Control over sound waves for various effects.",
+    "rarity": "Uncommon",
+    "upgrades": "Manipulate sound to deceive or attack.",
+    "downsides": "Accidental noise in stealth situations."
+  },
+  {
+    "name": "Dimensional Sealing",
+    "description": "Seal or unseal portals to other dimensions.",
+    "rarity": "Rare",
+    "upgrades": "Control over dimensional locks and barriers.",
+    "downsides": "Risk of unleashing dangerous entities."
+  },
+  {
+    "name": "Feline Agility",
+    "description": "Gain agility, balance, and reflexes of a cat.",
+    "rarity": "Common",
+    "upgrades": "Enhanced night vision and predatory instincts.",
+    "downsides": "Prone to cat-like behaviors."
+  },
+  {
+    "name": "Mystic Warding",
+    "description": "Create protective barriers against magic.",
+    "rarity": "Uncommon",
+    "upgrades": "Reinforce wards and create mobile shields.",
+    "downsides": "Drain on magical energy."
+  },
+  {
+    "name": "Dimensional Cloning",
+    "description": "Create duplicates of yourself in parallel dimensions.",
+    "rarity": "Rare",
+    "upgrades": "Control over clone actions and coordination.",
+    "downsides": "Limited time for clone existence."
+  },
+  {
+    "name": "Cryomancy",
+    "description": "Mastery over ice-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced ice elements.",
+    "downsides": "Vulnerable to fire-based attacks."
+  },
+  {
+    "name": "Elemental Affinity (Wind)",
+    "description": "Mastery over wind-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced wind elements.",
+    "downsides": "Vulnerable to earth-based attacks."
+  },
+  {
+    "name": "Sword of Darkness",
+    "description": "Summon a dark, malevolent sword with cursed powers.",
+    "rarity": "Rare",
+    "upgrades": "Inflict more potent curses and amplify the sword's darkness.",
+    "downsides": "Corrupting influence on the user."
+  },
+  {
+    "name": "Emotion Manipulation",
+    "description": "Influence and control the emotions of others.",
+    "rarity": "Epic",
+    "upgrades": "Manipulate complex emotions and control larger groups.",
+    "downsides": "Ethical dilemmas and personal detachment."
+  },
+  {
+    "name": "Magma Manipulation",
+    "description": "Control over molten rock for offense and defense.",
+    "rarity": "Rare",
+    "upgrades": "Manipulate hotter magma and create volcanic eruptions.",
+    "downsides": "Environmental destruction."
+  },
+  {
+    "name": "Hive Mind Connection",
+    "description": "Communicate and coordinate with a network of allies.",
+    "rarity": "Uncommon",
+    "upgrades": "Expand the network and share skills and knowledge.",
+    "downsides": "Vulnerable to network disruptions."
+  },
+  {
+    "name": "Spectral Form",
+    "description": "Shift into a ghostly, intangible form.",
+    "rarity": "Rare",
+    "upgrades": "Phase through objects and become invisible.",
+    "downsides": "Vulnerable to spiritual attacks."
+  },
+  {
+    "name": "Bardic Inspiration",
+    "description": "Inspire others with music and poetry.",
+    "rarity": "Common",
+    "upgrades": "Boost morale and enhance creative abilities.",
+    "downsides": "Limited combat applications."
+  },
+  {
+    "name": "Reality Warping",
+    "description": "Bend the laws of reality to your will.",
+    "rarity": "Legendary",
+    "upgrades": "Create alternate realities and shape existence.",
+    "downsides": "Risk of unintended consequences."
+  },
+  {
+    "name": "Soul Fusion",
+    "description": "Merge your soul with another being.",
+    "rarity": "Rare",
+    "upgrades": "Merge with more powerful entities and gain their abilities.",
+    "downsides": "Risk of losing your identity."
+  },
+  {
+    "name": "Gravity Manipulation",
+    "description": "Control over gravitational forces.",
+    "rarity": "Epic",
+    "upgrades": "Alter gravity's strength and direction.",
+    "downsides": "Accidental environmental damage."
+  },
+  {
+    "name": "Beast Taming",
+    "description": "Tame and command mythical beasts.",
+    "rarity": "Rare",
+    "upgrades": "Control larger and more powerful creatures.",
+    "downsides": "Requires a deep bond with each beast."
+  },
+  {
+    "name": "Memory Manipulation",
+    "description": "Edit, erase, or implant memories in others.",
+    "rarity": "Epic",
+    "upgrades": "Control over complex memory alterations.",
+    "downsides": "Ethical dilemmas and potential backlash."
+  },
+  {
+    "name": "Psychic Vision",
+    "description": "Gain glimpses of the future and insights into others' thoughts.",
+    "rarity": "Uncommon",
+    "upgrades": "Increased accuracy and vision of distant events.",
+    "downsides": "Headaches and mental strain."
+  },
+  {
+    "name": "Temporal Stasis",
+    "description": "Freeze time in a localized area.",
+    "rarity": "Rare",
+    "upgrades": "Extend the duration and affect larger areas.",
+    "downsides": "Temporal disorientation."
+  },
+  {
+    "name": "Elemental Affinity (Lightning)",
+    "description": "Mastery over lightning-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced lightning elements.",
+    "downsides": "Vulnerable to earth-based attacks."
+  },
+  {
+    "name": "Sword of Wind",
+    "description": "Summon a blade infused with the power of the wind.",
+    "rarity": "Rare",
+    "upgrades": "Create tornadoes and control the winds.",
+    "downsides": "Vulnerable to earth-based attacks."
+  },
+  {
+    "name": "Aether Manipulation",
+    "description": "Control the ethereal substance of the universe.",
+    "rarity": "Epic",
+    "upgrades": "Shape and manipulate reality on a cosmic scale.",
+    "downsides": "Strain on the user's mind and body."
+  },
+  {
+    "name": "Living Armor",
+    "description": "Armor that can grow, adapt, and self-repair.",
+    "rarity": "Rare",
+    "upgrades": "Enhance defensive capabilities and integrate weapon systems.",
+    "downsides": "Requires bonding with the armor."
+  },
+  {
+    "name": "Illusionary Clone",
+    "description": "Create illusionary duplicates to confuse enemies.",
+    "rarity": "Uncommon",
+    "upgrades": "More convincing and versatile illusions.",
+    "downsides": "Easily dispelled by experienced foes."
+  },
+  {
+    "name": "Cursed Bloodline",
+    "description": "Inherited curse with unique abilities.",
+    "rarity": "Rare",
+    "upgrades": "Unlock latent curse powers and resistances.",
+    "downsides": "Struggles with curse control."
+  },
+  {
+    "name": "Soul Reaver",
+    "description": "Weapon that absorbs the souls of those it slays.",
+    "rarity": "Rare",
+    "upgrades": "Gain new abilities and power from absorbed souls.",
+    "downsides": "Risk of corruption."
+  },
+  {
+    "name": "Space Manipulation",
+    "description": "Control over the fabric of space for teleportation and manipulation.",
+    "rarity": "Epic",
+    "upgrades": "Teleport to distant galaxies and create wormholes.",
+    "downsides": "Energy drain and dimensional instability."
+  },
+  {
+    "name": "Dreamscape Mastery",
+    "description": "Manipulate and reshape dreamscapes.",
+    "rarity": "Rare",
+    "upgrades": "Create dream constructs and affect reality through dreams.",
+    "downsides": "Ethical dilemmas and potential instability."
+  },
+  {
+    "name": "Elemental Affinity (Darkness)",
+    "description": "Mastery over darkness-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced dark elements.",
+    "downsides": "Vulnerable to light-based attacks."
+  },
+  {
+    "name": "Sentient Weaponry",
+    "description": "Bond with a weapon that can communicate and strategize.",
+    "rarity": "Rare",
+    "upgrades": "Develop unique combat tactics with the weapon.",
+    "downsides": "Risk of clashing personalities."
+  },
+  {
+    "name": "Chaos Magic",
+    "description": "Unpredictable magic with random effects.",
+    "rarity": "Epic",
+    "upgrades": "Control over chaos magic and reduce randomness.",
+    "downsides": "Unpredictable consequences."
+  },
+  {
+    "name": "Elemental Affinity (Light)",
+    "description": "Mastery over light-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced light elements.",
+    "downsides": "Vulnerable to darkness-based attacks."
+  },
+  {
+    "name": "Gravity Manipulation",
+    "description": "Control over gravitational forces.",
+    "rarity": "Epic",
+    "upgrades": "Alter gravity's strength and direction.",
+    "downsides": "Accidental environmental damage."
+  },
+  {
+    "name": "Beast Taming",
+    "description": "Tame and command mythical beasts.",
+    "rarity": "Rare",
+    "upgrades": "Control larger and more powerful creatures.",
+    "downsides": "Requires a deep bond with each beast."
+  },
+  {
+    "name": "Memory Manipulation",
+    "description": "Edit, erase, or implant memories in others.",
+    "rarity": "Epic",
+    "upgrades": "Control over complex memory alterations.",
+    "downsides": "Ethical dilemmas and potential backlash."
+  },
+  {
+    "name": "Psychic Vision",
+    "description": "Gain glimpses of the future and insights into others' thoughts.",
+    "rarity": "Uncommon",
+    "upgrades": "Increased accuracy and vision of distant events.",
+    "downsides": "Headaches and mental strain."
+  },
+  {
+    "name": "Temporal Stasis",
+    "description": "Freeze time in a localized area.",
+    "rarity": "Rare",
+    "upgrades": "Extend the duration and affect larger areas.",
+    "downsides": "Temporal disorientation."
+  },
+  {
+    "name": "Elemental Affinity (Lightning)",
+    "description": "Mastery over lightning-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced lightning elements.",
+    "downsides": "Vulnerable to earth-based attacks."
+  },
+  {
+    "name": "Sword of Wind",
+    "description": "Summon a blade infused with the power of the wind.",
+    "rarity": "Rare",
+    "upgrades": "Create tornadoes and control the winds.",
+    "downsides": "Vulnerable to earth-based attacks."
+  },
+  {
+    "name": "Aether Manipulation",
+    "description": "Control the ethereal substance of the universe.",
+    "rarity": "Epic",
+    "upgrades": "Shape and manipulate reality on a cosmic scale.",
+    "downsides": "Strain on the user's mind and body."
+  },
+  {
+    "name": "Living Armor",
+    "description": "Armor that can grow, adapt, and self-repair.",
+    "rarity": "Rare",
+    "upgrades": "Enhance defensive capabilities and integrate weapon systems.",
+    "downsides": "Requires bonding with the armor."
+  },
+  {
+    "name": "Illusionary Clone",
+    "description": "Create illusionary duplicates to confuse enemies.",
+    "rarity": "Uncommon",
+    "upgrades": "More convincing and versatile illusions.",
+    "downsides": "Easily dispelled by experienced foes."
+  },
+  {
+    "name": "Cursed Bloodline",
+    "description": "Inherited curse with unique abilities.",
+    "rarity": "Rare",
+    "upgrades": "Unlock latent curse powers and resistances.",
+    "downsides": "Struggles with curse control."
+  },
+  {
+    "name": "Soul Reaver",
+    "description": "Weapon that absorbs the souls of those it slays.",
+    "rarity": "Rare",
+    "upgrades": "Gain new abilities and power from absorbed souls.",
+    "downsides": "Risk of corruption."
+  },
+  {
+    "name": "Space Manipulation",
+    "description": "Control over the fabric of space for teleportation and manipulation.",
+    "rarity": "Epic",
+    "upgrades": "Teleport to distant galaxies and create wormholes.",
+    "downsides": "Energy drain and dimensional instability."
+  },
+  {
+    "name": "Dreamscape Mastery",
+    "description": "Manipulate and reshape dreamscapes.",
+    "rarity": "Rare",
+    "upgrades": "Create dream constructs and affect reality through dreams.",
+    "downsides": "Ethical dilemmas and potential instability."
+  },
+  {
+    "name": "Elemental Affinity (Darkness)",
+    "description": "Mastery over darkness-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced dark elements.",
+    "downsides": "Vulnerable to light-based attacks."
+  },
+  {
+    "name": "Sentient Weaponry",
+    "description": "Bond with a weapon that can communicate and strategize.",
+    "rarity": "Rare",
+    "upgrades": "Develop unique combat tactics with the weapon.",
+    "downsides": "Risk of clashing personalities."
+  },
+  {
+    "name": "Chaos Magic",
+    "description": "Unpredictable magic with random effects.",
+    "rarity": "Epic",
+    "upgrades": "Control over chaos magic and reduce randomness.",
+    "downsides": "Unpredictable consequences."
+  },
+  {
+    "name": "Elemental Affinity (Light)",
+    "description": "Mastery over light-based spells and attacks.",
+    "rarity": "Common",
+    "upgrades": "Control more advanced light elements.",
+    "downsides": "Vulnerable to darkness-based attacks."
+  },
+  {
+    "name": "Reality Warping",
+    "description": "Bend the laws of reality to your will.",
+    "rarity": "Legendary",
+    "upgrades": "Create alternate realities and shape existence.",
+    "downsides": "Risk of unintended consequences."
+  }
+]

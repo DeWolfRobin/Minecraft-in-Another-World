@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "miaw",
+	"version": "${version}",
+	"name": "Minecraft In Another World",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Haywirehax"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/miaw/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.haywirehax.miaw.MinecraftinAnotherWorld",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.haywirehax.miaw.MinecraftinAnotherWorldClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.haywirehax.miaw.MinecraftinAnotherWorldDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"miaw.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
